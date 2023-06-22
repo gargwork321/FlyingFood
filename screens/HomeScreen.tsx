@@ -8,7 +8,7 @@ import {
   MagnifyingGlassIcon,
   AdjustmentsVerticalIcon,
 } from "react-native-heroicons/outline";
-import Categories from "./components/categories";
+import Categories from "./components/Categories";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -51,6 +51,7 @@ const HomeScreen = () => {
 
       <ScrollView>
         {/* Categories */}
+        <Categories />
         {/* Featured Rows */}
       </ScrollView>
     </SafeAreaView>
